@@ -1,0 +1,33 @@
+@media (max-width: 650px) {
+    .section-p1{
+        padding: 20px;
+    }
+    #wrapper{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+   
+    #product1 .prod{
+        width: 100%;
+    }
+    #page-header2{
+        flex-direction: column;
+    }
+    #page-header2 p{
+width: 2%;
+    }
+    #product1 .prod-container{
+      flex-direction: column;
+    }
+    .sticky-div{
+        transform: translateX(-30%);
+    }
+}
